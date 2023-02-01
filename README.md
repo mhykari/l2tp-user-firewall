@@ -4,10 +4,10 @@ Bash script to turn a linux server to l2tp server.
 This is a bash script to turn you ubuntu server to a l2tp server with all dependencies using [hwdsl2](https://github.com/hwdsl2/setup-ipsec-vpn/)'s IPsec VPN Server Auto Setup Script and i just added automated user creation and ufw firewall install to import rules needed to protect users and server from netscan or other attacks.
 # How to Use
 This script has 4 steps:
-1- create_user \n
-2- download_bash_file \n
-3- install_vpn_server \n
-4- update_firewall \n
+1- create_user
+2- download_bash_file
+3- install_vpn_server
+4- update_firewall
 
 First of all put the variables needed in the script file.
 Put your system username and password in as LUSR and LPSW.
