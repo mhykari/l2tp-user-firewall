@@ -1,5 +1,5 @@
 # l2tp-user-firewall
-Bash script to turn a linux server to l2tp server.
+Bash script to create user, turn a linux server to l2tp server and setup firewall to prevent netscan attacks using ufw.
 # Turn a Linux Server to L2TP Server
 This is a bash script to turn your ubuntu server to a l2tp server with all dependencies using [hwdsl2](https://github.com/hwdsl2/setup-ipsec-vpn/)'s IPsec VPN Server Auto Setup Script and i just added automated user creation and ufw firewall install to import rules needed to protect users and server from netscan or other attacks.
 # How to Use
